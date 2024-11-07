@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './HeroBanner.css';
 
 function HeroBanner() {
@@ -6,9 +7,9 @@ function HeroBanner() {
         <div className="hero-banner">
             <nav className="nav-menu">
                 <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#product">Product</a></li>
-                    <li><a href="#food-category">Food Category</a></li>
+                    <li><Link to="/about">About Us</Link></li>
+                    <li><Link to="/product">Product</Link></li>
+                    <li><Link to="/food-category">Food Category</Link></li>
                 </ul>
             </nav>
             <h1>Welcome to Little Lemon</h1>

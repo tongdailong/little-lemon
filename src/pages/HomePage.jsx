@@ -13,10 +13,12 @@ function HomePage() {
     return (
         <div className="homepage">
             <HeroBanner />
-            <div className="meal-cards">
-                {meals.map((meal, index) => (
-                    <Card key={index} {...meal} />
-                ))}
+            <div className="cards-container">
+                <div className="meal-cards">
+                    {meals.map((meal, index) => (
+                        <Card key={index} {...meal} />
+                    ))}
+                </div>
             </div>
         </div>
     );
