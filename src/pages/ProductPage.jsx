@@ -1,10 +1,14 @@
 import React from 'react';
+import NavBar from '../components/NavBar';
+import HeroBanner from '../components/HeroBanner';
 
 function ProductPage() {
     return (
         <div>
-            <h2>Our Products</h2>
-            <p>Explore our range of lemon-infused products, from delicious meals to refreshing drinks. Each product is crafted with care and a zest for quality.</p>
+            <NavBar />
+            <HeroBanner />
+            <h1>Our Products</h1>
+            <p>Details about our products...</p>
         </div>
     );
 }

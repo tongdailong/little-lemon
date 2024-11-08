@@ -13,7 +13,9 @@ function HeroBanner() {
                 </ul>
             </nav>
             <h1>Welcome to Little Lemon</h1>
-            <button className="cta-button">Book Table Now</button>
+            <Link to="/booking">
+                <button className="cta-button">Book Table Now</button>
+            </Link>
         </div>
     );
 }

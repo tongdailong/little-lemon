@@ -1,10 +1,14 @@
 import React from 'react';
+import NavBar from '../components/NavBar';
+import HeroBanner from '../components/HeroBanner';
 
 function AboutPage() {
     return (
         <div>
-            <h2>About Us</h2>
-            <p>Welcome to Little Lemon! We are passionate about bringing you the best lemon-themed dishes. Our story began with a love for lemons and a desire to share that love with the world.</p>
+            <NavBar />
+            <HeroBanner />
+            <h1>About Us</h1>
+            <p>Information about us...</p>
         </div>
     );
 }
